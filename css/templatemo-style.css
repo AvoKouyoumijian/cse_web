@@ -1,11 +1,3 @@
-/*
-
-Stimulus Template
-
-http://www.templatemo.com/tm-498-stimulus
-
-*/
-
 body {
   background: black;
   color: white;
@@ -394,8 +386,7 @@ a:focus {
   background: url("../images/about-img.jpg") no-repeat;
 }
 
-#about .about-thumb,
-#about .skill-thumb {
+#about .about-thumb {
   padding: 22px 32px 32px 32px;
   background-color: #7b0323;
 }
@@ -419,72 +410,27 @@ a:focus {
 }
 
 /*---------------------------------------
-    Service section              
------------------------------------------*/
+      Project section              
+  -----------------------------------------*/
 
-#service {
-  background: #e9724c;
+#project .project-img {
+  background: url("../images/ext.jpeg") no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
 }
 
-#service p {
-  font-size: 18px;
-  line-height: 30px;
-}
-
-#service .service-thumb {
-  padding: 52px 22px 52px 22px;
-}
-
-#service .service-thumb .fa {
-  font-size: 42px;
-  padding-bottom: 22px;
-}
-
-/*---------------------------------------
-    Experience section              
------------------------------------------*/
-
-#experience .experience-img {
-  background: url("../images/experience-img.jpg") no-repeat;
-}
-
-#experience .media-heading {
+#project .media-heading {
   margin-bottom: 0px;
 }
 
-#experience .media .fa {
+#project .media .fa {
   font-size: 42px;
   margin-right: 14px;
 }
 
-#experience small {
+#project small {
   color: #633;
-  font-weight: bold;
-}
-
-/*---------------------------------------
-    Education section              
------------------------------------------*/
-
-#education {
-  background: #e3ae57;
-}
-
-#education .education-img {
-  background: url("../images/education-img.jpg") no-repeat;
-}
-
-#education .media-heading {
-  margin-bottom: 0px;
-}
-
-#education .media .fa {
-  font-size: 42px;
-  margin-right: 14px;
-}
-
-#education small {
-  color: #886d1e;
   font-weight: bold;
 }
 
@@ -518,128 +464,6 @@ a:focus {
 
 #quotes p {
   padding-top: 32px;
-}
-
-/*---------------------------------------
-    Contact section              
------------------------------------------*/
-
-#contact {
-  background: #e9724c;
-}
-
-#contact .contact-form,
-#contact .contact-thumb {
-  padding: 22px 32px 22px 32px;
-  min-height: 75vh;
-}
-
-#contact .contact-img {
-  background: url("../images/contact-img.jpg") no-repeat;
-  min-height: 75vh;
-}
-
-#contact .contact-info {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-#contact .form-control::-moz-placeholder {
-  color: #ffffff;
-  opacity: 1;
-}
-#contact .form-control:-ms-input-placeholder {
-  color: #ffffff;
-}
-#contact .form-control::-webkit-input-placeholder {
-  color: #ffffff;
-}
-
-#contact .form-control {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #e3ae57;
-  border-radius: 0px;
-  box-shadow: none;
-  color: #ffffff;
-  font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:focus {
-  border-bottom-color: #ffffff;
-}
-
-#contact input {
-  height: 45px;
-}
-
-#contact input[type="submit"] {
-  background: #ffffff;
-  border: 2px solid transparent;
-  border-radius: 40px;
-  color: #161616;
-  padding-bottom: 10px;
-}
-
-#contact input[type="submit"]:hover {
-  background: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
-}
-
-#contact .fa {
-  padding-right: 10px;
-}
-
-/*---------------------------------------
-   Footer section              
------------------------------------------*/
-
-footer {
-  padding: 140px 0px;
-}
-
-/*---------------------------------------
-   Social icon             
------------------------------------------*/
-
-.social-icon {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-.social-icon li {
-  display: inline-block;
-  list-style: none;
-}
-
-.social-icon li a {
-  border: 2px solid transparent;
-  color: #999;
-  border-radius: 100px;
-  cursor: pointer;
-  font-size: 16px;
-  text-decoration: none;
-  transition: all 0.4s ease-in-out;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: middle;
-  position: relative;
-  margin: 22px 4px 10px 4px;
-}
-
-.social-icon li a:hover {
-  background: #e3ae57;
-  border-color: #ffffff;
-  color: #ffffff;
-  transform: scale(1.1);
 }
 
 /*---------------------------------------

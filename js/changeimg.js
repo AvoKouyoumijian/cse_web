@@ -6,14 +6,13 @@ var images = [
   "images/home_paris.jpeg",
   "images/home_itely.jpeg",
 ];
-var x = 0; // Start with the first image
+var x = 0;
 
 function displayNextImage() {
-  x = (x + 1) % images.length; // Increment and loop around
+  x = (x + 1) % images.length;
   document.getElementById("img").src = images[x];
-  console.log("Current image: ", images[x]); // Log for debugging
 }
 
 function startTimer() {
-  setInterval(displayNextImage, 3000); // Change image every 3 seconds
+  setInterval(displayNextImage, 3000);
 }
