@@ -7,7 +7,6 @@ http://www.templatemo.com/tm-498-stimulus
 */
 
 body {
-  background: #ffffff;
   background: black;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
@@ -88,9 +87,9 @@ p {
 
 .section-btn {
   background-color: transparent;
-  border: 3px solid #232b2b;
+  border: 3px solid #888;
   border-radius: 100px;
-  color: #232b2b;
+  color: #888;
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 1.6px;
@@ -398,6 +397,7 @@ a:focus {
 #about .about-thumb,
 #about .skill-thumb {
   padding: 22px 32px 32px 32px;
+  background-color: #7b0323;
 }
 
 #about .progress {
