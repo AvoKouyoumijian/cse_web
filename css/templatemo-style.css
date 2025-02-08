@@ -381,32 +381,24 @@ a:focus {
 /*---------------------------------------
    About section              
 -----------------------------------------*/
-
-#about .about-img {
-  background: url("../images/about-img.jpg") no-repeat;
+#about .row {
+  height: 100vh; /* Ensures both columns are the same height */
 }
 
 #about .about-thumb {
-  padding: 22px 32px 32px 32px;
+  padding: 32px;
   background-color: #7b0323;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#about .progress {
-  background: #ffffff;
-  border-radius: 0px;
-  box-shadow: none;
-  height: 2px;
-}
-
-#about .progress-bar-primary {
-  background: #232b2b;
-}
-
-#about strong,
-#about span {
-  font-weight: bold;
-  display: inline-block;
-  padding-bottom: 8px;
+#about .about-img {
+  background: url("../images/meme.jpeg") no-repeat center center;
+  background-size: cover;
+  min-height: 100%;
+  height: 100vh;
 }
 
 /*---------------------------------------
@@ -415,7 +407,7 @@ a:focus {
 
 #project .project-img {
   background: url("../images/ext.jpeg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 600px;
   width: 100%;
 }
@@ -505,6 +497,10 @@ a:focus {
   #contact .container {
     padding-right: 15px;
     padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
   }
 
   #about .col-md-3,
